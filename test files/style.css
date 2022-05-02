@@ -1,0 +1,60 @@
+/* cards.html */
+
+
+div.main {
+    margin: 20% 20%;
+}
+
+
+
+
+/* Navbar */
+
+/* Navbar */
+.nav-mother {
+    background-color: #E5E5E5;
+    display: flex;
+    justify-content: space-between;
+    /* border: solid 1px black; */
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    box-shadow: 5px 5px 5px -5px black;
+    /* margin-top: 0.25%; */
+}
+
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    color: #005C9A;
+    padding: 3%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    background-color: #E5E5E5;
+
+    font-size: 18px;
+}
+
+.navbar div a {
+    color: #005C9A;
+    text-decoration: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 5;
+}
+
+.navbar a:hover {
+    background-color: #ffffff;
+}
+
+.nvc img {
+    height: 30px;
+    /* padding: 9; */
+    margin-right: 50;
+    margin-top: 5%;
+    /* margin-left: 70%; */
+
+}
