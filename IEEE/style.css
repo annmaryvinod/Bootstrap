@@ -12,9 +12,13 @@ div.nav-mother {
     box-shadow: 5px 5px 5px -5px black;
 }
 
-a.nav-link {
+/* a.nav-link {
     color: #005C9A;
 
+} */
+
+.navbar-light .navbar-nav .nav-link {
+    color: #005C9A;
 }
 
 
@@ -60,8 +64,11 @@ div.feta {
 div.pgend {
     text-align: center;
     color: rgba(0, 0, 0, 0.8);
+    margin-bottom: 2%;
 }
-
+div.foot-three {
+    margin-top: 2%;
+}
 
 
 
