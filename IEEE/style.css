@@ -66,6 +66,7 @@ div.pgend {
     color: rgba(0, 0, 0, 0.8);
     margin-bottom: 2%;
 }
+
 div.foot-three {
     margin-top: 2%;
 }
@@ -76,6 +77,69 @@ div.foot-three {
 
 
 
+/* 1.Home Page */
+
+
+/* a. Banner */
+
+div.banner-container {
+    background-color: black;
+}
+
+div.main-head h1 {
+    text-align: center;
+    color: #ffffff;
+    padding: 10px;
+}
+
+div.bannerflex {
+    margin: 3%;
+    padding: 3%;
+}
+
+div.card.first {
+    background-color: #FFE5B4;
+    text-align: center;
+}
+
+div.card.sec {
+    background-color: #2f2f2f;
+    color: #f9f6f2;
+    text-align: center;
+}
+
+div.main-head {
+    /* margin-top: 5%; */
+}
+
+
+/* b.Execom */
+div.dashboard-container{
+    background-color: #4AA5E2;
+}
+div.execom-flex {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+div.exc-head h3 {
+    text-align: center;
+    margin: 4%;
+}
+
+div.exm-name {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+img.eximg {
+    border-radius: 130px;
+    border: 7px solid black;
+}
+
+/* c. Dashboard */
 
 
 
@@ -86,9 +150,7 @@ div.foot-three {
 
 
 
-
-
-/* Events Page */
+/* 2.Events Page */
 
 
 div.head-content {
