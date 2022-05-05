@@ -44,8 +44,8 @@ div.nav-mother {
 /* /* Footer */
 
 img.cmnty {
-    height: 30px;
-    width: 30px;
+    height: 40px;
+    width: 40px;
     padding: 5px;
 }
 
@@ -65,6 +65,7 @@ div.pgend {
     text-align: center;
     color: rgba(0, 0, 0, 0.8);
     margin-bottom: 2%;
+    margin-top: 3%;
 }
 
 div.foot-three {
@@ -78,6 +79,11 @@ div.foot-three {
 
 
 /* 1.Home Page */
+
+
+/* div.main-container.home {
+    background-color: black;
+} */
 
 
 /* a. Banner */
@@ -108,15 +114,14 @@ div.card.sec {
     text-align: center;
 }
 
-div.main-head {
-    /* margin-top: 5%; */
-}
+
 
 
 /* b.Execom */
-div.dashboard-container{
-    background-color: #4AA5E2;
+div.execom-container {
+    background-color: #ffffff;
 }
+
 div.execom-flex {
     display: flex;
     flex-direction: row;
@@ -140,14 +145,89 @@ img.eximg {
 }
 
 /* c. Dashboard */
+div.dashboard-container {
+    background-color: #4AA5E2;
+    margin-top: 5%;
+}
+
+div.dsh-hd h2 {
+    color: #ffffff;
+}
+
+div.dsh-hd {
+    margin: 3%;
+}
+
+div.update-container {
+    padding: 5%;
+    width: 100%;
+}
+
+div.update-container div.col-sm-6 {
+    margin-top: 2%;
+}
+
+div.card-body a.btn.btn-primary {
+    justify-content: center;
+}
+
+
+/* d.About MACE */
+
+img.img-fluid.rounded-start {
+    height: 100%;
+}
+
+div.card.mb-3 {
+    margin: 7%;
+}
+
+h5.card-title {
+    text-align: center;
+}
+
+div.mace-container {
+    /* background-color: black; */
+    margin-top: 0;
+}
+
+
+/* e.About MACE SB */
+
+img.img-fluid.rounded-start.sb {
+    height: 80%;
+    padding: 7px;
+}
 
 
 
 
+/* f. IEEE Family */
 
+div.logo-container {
+    display: flex;
+    flex-direction: column;
+    margin: 0 30%;
+}
 
+img.logo-img {
+    height: 100px;
+    width: 150px;
+  margin-left: 50%;
+}
 
-
+div.ieee-logo-container {
+    display: flex;
+    justify-content: space-around;
+    width: 60%;
+}
+div.div.ieee-logo-container.second {
+    margin-top: 10%;
+}
+div.fam-head h2 {
+    text-align: center;
+    margin: 7%;
+}
 
 
 /* 2.Events Page */
